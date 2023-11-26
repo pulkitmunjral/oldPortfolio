@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Pulkit's Portfolio",
   description:
-    "Enthusiastic Professional Software Developer dedicated to craft cutting-edge solutions with top-notch quality to create impact.",
+    "Enthusiastic Professional Software Developer dedicated to create impact by craft cutting-edge solutions with top-notch quality.",
   og: {
     title: "Pulkit Munjral Portfolio",
     type: "website",
@@ -23,64 +23,43 @@ const greeting = {
   logo_name: "Pulkit Munjral",
   nickname: "",
   subTitle:
-  "Enthusiastic Professional Software Developer dedicated to craft cutting-edge solutions with top-notch quality to create impact.",
+  "Enthusiastic Professional Software Developer dedicated to create impact by craft cutting-edge solutions with top-notch quality.",
   resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+    "https://github.com/pulkitmunjral/pulkitmunjral.github.io/blob/main/images/Pulkit_Munjral.pdf",
+  portfolio_repository: "https://github.com/pulkitmunjral/pulkitmunjral.github.io",
+  githubProfile: "https://github.com/pulkitmunjral",
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
-
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/pulkitmunjral",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/pilkitmunjral/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
-    name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
-  {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:pulkit.munjral@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
-    name: "X-Twitter",
-    link: "https://twitter.com/ashutosh_1919",
-    fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
-    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
-  },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
     name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
+    link: "https://www.instagram.com/pulkit.munjral/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  },
+  {
+    name: "Medium",
+    link: "https://medium.com/@pulkitmunjral",
+    fontAwesomeIcon: "fa-medium", // Reference https://fontawesome.com/icons/medium?f=brands
+    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
@@ -332,7 +311,7 @@ const competitiveSites = {
       style: {
         color: "#F79F1B",
       },
-      profileLink: "https://leetcode.com/layman_brother/",
+      profileLink: "https://leetcode.com/pulkitmunjral/",
     },
     {
       siteName: "HackerRank",
@@ -340,7 +319,7 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/layman_brother",
+      profileLink: "https://www.hackerrank.com/profile/pulkit_munjral",
     },
     {
       siteName: "Codechef",
@@ -348,62 +327,73 @@ const competitiveSites = {
       style: {
         color: "#5B4638",
       },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
+      profileLink: "https://www.codechef.com/users/pulkitmunjral",
     },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
+    // {
+    //   siteName: "Codeforces",
+    //   iconifyClassname: "simple-icons:codeforces",
+    //   style: {
+    //     color: "#1F8ACB",
+    //   },
+    //   profileLink: "http://codeforces.com/profile/layman_brother",
+    // },
     {
       siteName: "Hackerearth",
       iconifyClassname: "simple-icons:hackerearth",
       style: {
         color: "#323754",
       },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
+      profileLink: "https://www.hackerearth.com/@pulkit.munjral",
     },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
-    },
+    // {
+    //   siteName: "Kaggle",
+    //   iconifyClassname: "simple-icons:kaggle",
+    //   style: {
+    //     color: "#20BEFF",
+    //   },
+    //   profileLink: "https://www.kaggle.com/laymanbrother",
+    // },
   ],
 };
 
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
+      title: "B.Tech in Electronics ans Communication",
+      subtitle: "Jaipur Engineering College and Research Centre",
+      logo_path: "jecrc_logo3.png",
+      alt_name: "JECRC Foundation",
       duration: "2016 - 2020",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ Apart from this, I have done courses on Mahine Learning, Data Science and IOT",
+        "⚡ I organised a Tech-fest Renaissance 2K19 and was award for making it the best.",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://jecrcfoundation.com/",
     },
     {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
+      title: "Good Shephered Public School",
+      subtitle: "12th Standard",
+      logo_path: "gsps2.png",
+      alt_name: "GSPS",
+      duration: "2015 - 2016",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "⚡ I studied Physics, Chemistery and Maths.",
+        "⚡ Apart from this, I started learning how machine works and how machines have changed our life.",
       ],
-      website_link: "https://www.indiana.edu/",
+      website_link: "https://www.goodshepherdpublicschool.in/",
+    },
+    {
+      title: "Good Shephered Public School",
+      subtitle: "10th Standard",
+      logo_path: "gsps2.png",
+      alt_name: "GSPS",
+      duration: "2013 - 2014",
+      descriptions: [
+        "⚡ I studied basic CBSE curriculum.",
+        "⚡ I scored perfect 10 CGPA in my favorite subject Maths.",
+      ],
+      website_link: "https://www.goodshepherdpublicschool.in/",
     },
   ],
 };
@@ -411,113 +401,194 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
-    },
-    {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
+      title: "Machine Leaning",
+      subtitle: "by Saurabh",
+      logo_path: "techi_logo.png",
+      certificate_link: "",
+      alt_name: "TechieNest",
       color_code: "#D83B0199",
     },
     {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
+      title: "Python",
+      subtitle: "by Hacker Rank",
+      logo_path: "HackerRank_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
+        "https://www.hackerrank.com/certificates/3fa75b4d6ab9",
+      alt_name: "Hacker Rank",
       color_code: "#0C9D5899",
     },
     {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
+      title: "SQL Bootcamp",
+      subtitle: "by Jose Portila",
+      logo_path: "udemy_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
+        "https://www.udemy.com/certificate/UC-79820a22-419a-43a2-9ad7-8156d13fed97/",
+      alt_name: "Udemy",
       color_code: "#2A73CC",
     },
     {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
+      title: "Git and Github",
+      subtitle: "by Colt Steele",
+      logo_path: "udemy_logo.png",
       certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
+        "https://www.udemy.com/certificate/UC-b7e33fb3-ddb1-4fd1-ab80-9e10bcc60233/",
+      alt_name: "Udemy",
+      color_code: "#2A73CC",
     },
     {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
+      title: "Probelum Solving",
+      subtitle: "by Hacker Rank",
+      logo_path: "HackerRank_logo2.png",
       certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
+        "https://www.hackerrank.com/certificates/5f17073eb44f",
+      alt_name: "Hacker Rank",
+      color_code: "#000000",
     },
     {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
+      title: "Microservices Architecture",
+      subtitle: "by Memi Lavi",
+      logo_path: "udemy_logo2.png",
       certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
+        "https://www.udemy.com/certificate/UC-cdc36984-0098-4570-b64c-06b0d8e222c4/",
+      alt_name: "Udemy",
+      color_code: "#00000099",
     },
+    {
+      title: "Java Basic",
+      subtitle: "by Hacker Rank",
+      logo_path: "HackerRank_logo.png",
+      certificate_link:
+        "https://www.hackerrank.com/certificates/63d3c1c21b91",
+      alt_name: "Hacker Rank",
+      color_code: "#0C9D5899",
+    },
+    {
+      title: "Jira",
+      subtitle: "by Masha Ostroumova",
+      logo_path: "udemy_logo2.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-e2487198-2c6b-4f2a-9e36-d76d9ea38558/",
+      alt_name: "Udemy",
+      color_code: "#00000099",
+    },
+    {
+      title: "IOT",
+      subtitle: "by Saurabh",
+      logo_path: "techi_logo.png",
+      certificate_link: "",
+      alt_name: "TechieNest",
+      color_code: "#D83B0199",
+    },
+    
+    {
+      title: "Python Bootcamp",
+      subtitle: "by Jose Portila",
+      logo_path: "udemy_logo.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-6ec3bc2a-2a80-4fe4-83ae-daa3cb8dd0ac/",
+      alt_name: "Udemy",
+      color_code: "#2A73CC",
+    },
+    {
+      title: "SQL",
+      subtitle: "by Hacker Rank",
+      logo_path: "HackerRank_logo2.png",
+      certificate_link:
+        "https://www.hackerrank.com/certificates/75a89245e882",
+      alt_name: "Hacker Rank",
+      color_code: "#000000",
+    },
+    
+    // {
+    //   title: "ML on GCP",
+    //   subtitle: "- GCP Training",
+    //   logo_path: "google_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
+    //   alt_name: "Google",
+    //   color_code: "#0C9D5899",
+    // },
+    // {
+    //   title: "Data Science",
+    //   subtitle: "- Alex Aklson",
+    //   logo_path: "ibm_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
+    //   alt_name: "IBM",
+    //   color_code: "#1F70C199",
+    // },
+    // {
+    //   title: "Big Data",
+    //   subtitle: "- Kim Akers",
+    //   logo_path: "microsoft_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
+    //   alt_name: "Microsoft",
+    //   color_code: "#D83B0199",
+    // },
+    // {
+    //   title: "Advanced Data Science",
+    //   subtitle: "- Romeo Kienzler",
+    //   logo_path: "ibm_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
+    //   alt_name: "IBM",
+    //   color_code: "#1F70C199",
+    // },
+    // {
+    //   title: "Advanced ML on GCP",
+    //   subtitle: "- GCP Training",
+    //   logo_path: "google_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
+    //   alt_name: "Google",
+    //   color_code: "#0C9D5899",
+    // },
+    // {
+    //   title: "DL on Tensorflow",
+    //   subtitle: "- Laurence Moroney",
+    //   logo_path: "deeplearning_ai_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
+    //   alt_name: "deeplearning.ai",
+    //   color_code: "#00000099",
+    // },
+    // {
+    //   title: "Fullstack Development",
+    //   subtitle: "- Jogesh Muppala",
+    //   logo_path: "coursera_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
+    //   alt_name: "Coursera",
+    //   color_code: "#2A73CC",
+    // },
+    // {
+    //   title: "Kuberenetes on GCP",
+    //   subtitle: "- Qwiklabs",
+    //   logo_path: "gcp_logo.png",
+    //   certificate_link:
+    //     "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
+    //   alt_name: "GCP",
+    //   color_code: "#4285F499",
+    // },
+    // {
+    //   title: "Cryptography",
+    //   subtitle: "- Saurabh Mukhopadhyay",
+    //   logo_path: "nptel_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
+    //   alt_name: "NPTEL",
+    //   color_code: "#FFBB0099",
+    // },
+    // {
+    //   title: "Cloud Architecture",
+    //   subtitle: "- Qwiklabs",
+    //   logo_path: "gcp_logo.png",
+    //   certificate_link:
+    //     "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
+    //   alt_name: "GCP",
+    //   color_code: "#4285F499",
+    // },
   ],
 };
 
@@ -528,6 +599,61 @@ const experience = {
   description:
     "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
   header_image_path: "experience.svg",
+  degrees: [
+    {
+      title: "Software Development Engineer",
+      subtitle: "Airtel Digital, Pune, Maharashtra",
+      logo_path: "airtel_logo.png",
+      alt_name: "Airtel",
+      duration: "August/2022 - Present",
+      descriptions: [
+        "⚡ Created independent Rest APIs using Django-Python, resulting in a significant reduction of data collection efforts by approximately 90%.",
+        "⚡ Enhanced user engagement by developing a highly responsive and user-friendly front-end, leveraging React.js to reduce loading time by 20%.",
+        "⚡ Engineered a revolutionary test data bot, resulting in a remarkable decrease in turnaround time and saving 100 man-days of effort monthly.",
+        "⚡ Boosted project efficiency by 30% through streamlined integration with Jira/Confluence.",
+        "⚡ Optimized data storage with SQL/MongoDB and accelerated development using Jenkins.",
+        "⚡ Awarded with Airtel Einstein Award for creating a revolutionary test data bot."
+      ],
+      website_link: "https://www.airtel.in/",
+    },
+    {
+      title: "Software Engineer",
+      subtitle: "Accenture, Gurgaon, Haryana",
+      logo_path: "accenture_log2.png",
+      alt_name: "Accenture",
+      duration: "June/2022 - August/2022",
+      descriptions: [
+        "⚡ Deployed an ElasticSearch stack, empowering the generation and access of accurate real-time execution reports with enhanced interactivity.",
+        "⚡ Awarded with Accenture Appreciation Awarded for independently managing a critical project with exceptional efficiency.",
+      ],
+      website_link: "https://www.accenture.com/",
+    },
+    {
+      title: "Associate Software Engineer",
+      subtitle: "Accenture, Gurgaon, Haryana",
+      logo_path: "accenture_log3.png",
+      alt_name: "Accenture",
+      duration: "January/2021 - June/2022",
+      descriptions: [
+        "⚡ Engineered a highly efficient Behave Framework using Selenium-Python, leading to a significant 80% reduction in manual intervention requirements.",
+        "⚡ Streamlined the process by integrating Jenkins with a Telegram Bot, facilitating the seamless delivery of comprehensive test results and reports via Telegram.",
+      ],
+      website_link: "https://www.accenture.com/",
+    },
+    {
+      title: "Software Development Intern",
+      subtitle: "TechieNest, Jaipur, Rajasthan",
+      logo_path: "techi_logo.png",
+      alt_name: "TechieNest",
+      duration: "May/2019 - June/2019",
+      descriptions: [
+        "⚡ Worked on various Machine learning projects.",
+        "⚡ Designed Various algorithms for different objects detection using Deep Learning.",
+        "⚡ Made a prototype of personal assistant (JARVIS), capable of recognizing user face with the help of pre prepared deep learning models.",
+      ],
+      website_link: "https://www.airtel.in/",
+    },
+  ],
   sections: [
     {
       title: "Work",
